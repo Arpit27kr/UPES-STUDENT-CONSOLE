@@ -1,0 +1,192 @@
+/* Set default styles for the HTML and body elements */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+  background-color: #F5F5F5;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  font-family: 'Tahoma', 'Verdana', 'Segoe', sans-serif;
+  width: 100%;
+}
+
+/* Style the table headers */
+th {
+  background-color: #09c332;
+  border: 1px solid gray;
+  color: #FFFFFF;
+  padding: 15px;
+  text-align: left;
+}
+
+/* Style the table rows */
+tr {
+  border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the wrapper and header */
+#wrapper {
+  width: 100%;
+  margin-top: 0;
+  background-color: #FFFFFF;
+}
+
+#header {
+  width: 100%;
+  background-color: #09c332;
+  padding: 15px;
+}
+
+/* Style the header text */
+#header h2 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+}
+
+#background-image {
+  background-image: url('/web-customer-tracker/resources/upes.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px #000;
+}
+
+#background-image h1 {
+  margin: 0;
+}
+
+
+
+
+
+/* Style the container and content */
+#container {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+#container h3 {
+  color: #000;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#container #content {
+  margin-top: 20px;
+}
+
+/* Style the add button */
+.add-button {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 20px;
+  background-color: #09c332;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #FFFFFF;
+  color: #09c332;
+  cursor: pointer;
+}
+
+/* Increase the length of rows and columns */
+td {
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: left;
+}
+
+th, td {
+  width: auto;
+  min-width: 100px;
+}
+
+/* Style the table caption */
+caption {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Move buttons on hover */
+.add-button:hover {
+  background-color: #FFFFFF;
+  color: #09c332;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.delete-button:hover {
+  background-color: #FFFFFF;
+  color: #f44336;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#search-container {
+	
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+/* Style the search input */
+#search-customer {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* Style the search button */
+#search-button {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  background-color: #09c332;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: #FFFFFF;
+  color: #09c332;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+

@@ -1,0 +1,92 @@
+/* Set default styles for the HTML and body elements */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+/* Style the table */
+table {   
+  border-collapse: collapse;
+  border-bottom: 1px solid gray;
+  font-family: 'Tahoma', 'Verdana', 'Segoe', sans-serif;
+  width: 100%;
+}
+
+/* Style the table headers */
+th {
+  background-color: #09c332;
+  border-bottom: 1px solid gray;
+  color: #FFFFFF;
+  padding: 15px;
+  text-align: left;
+}
+
+/* Style the table rows */
+tr {
+  border-top: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the wrapper and header */
+#wrapper {
+  width: 100%;
+  margin-top: 0;
+  background-color: #FFFFFF;
+}
+
+#header {
+  width: 100%;
+  background-color: #09c332;
+  padding: 15px;
+}
+
+/* Style the header text */
+#header h2 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Style the container and content */
+#container {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+#container h3 {
+  color: #000;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#container #content {
+  margin-top: 20px;
+}
+
+/* Style the add button */
+.add-button {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 20px;
+  background-color: #09c332;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #FFFFFF;
+  color: #09c332;
+  cursor: pointer;
+}
